@@ -38,6 +38,16 @@ Don't change any other settings on my machine.
 
 Everything else is untouched: same glyphs, same metrics, all 8 weights from Thin (100) to ExtraBold (800).
 
+## In a real terminal
+
+Screenshots from [Ghostty](https://ghostty.org) at 15px, using its default theme. Run the scripts in [`demo/`](demo) to see it in your own terminal.
+
+![Code with ligatures in Paper Term](images/terminal-code.png)
+
+![A shell session in Paper Term](images/terminal-shell.png)
+
+![Paper Term character specimen](images/terminal-specimen.png)
+
 ## Install manually
 
 1. Download the latest zip from [Releases](../../releases), or grab the files in [`fonts/otf`](fonts/otf).
