@@ -48,6 +48,24 @@ Screenshots from [Ghostty](https://ghostty.org) at 15px, using its default theme
 
 ![Paper Term character specimen](images/terminal-specimen.png)
 
+## With coding agents
+
+Most monospace fonts are built for reading code. But in an agent TUI, most of what you read is prose: explanations, plans and summaries, mixed in with tables and code. Paper Mono reads comfortably as prose too, and that's why Paper Term is built on it.
+
+These are real prompts and replies, shown in Ghostty at 14px.
+
+**Claude Code**
+
+![Claude Code reply in Paper Term: prose, a table and a shell snippet](images/agent-claude-code.png)
+
+**Codex**
+
+![Codex reply in Paper Term: prose, TypeScript and a table](images/agent-codex.png)
+
+**Hermes Agent** (startup banner cropped out)
+
+![Hermes Agent reply in Paper Term: prose, a table and an rsync snippet](images/agent-hermes.png)
+
 ## Install manually
 
 1. Download the latest zip from [Releases](../../releases), or grab the files in [`fonts/otf`](fonts/otf).
