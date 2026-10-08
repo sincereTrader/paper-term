@@ -22,6 +22,10 @@ Real prompts and replies, each mixing prose, tables and code, shown in Ghostty a
 
 ![Codex reply in Paper Term: prose, TypeScript and a table](images/agent-codex.png)
 
+**opencode** (Claude Haiku 5.5 on OpenCode Go)
+
+![opencode reply in Paper Term: prose, a table and a curl snippet](images/agent-opencode.png)
+
 **Hermes Agent** (startup banner cropped out)
 
 ![Hermes Agent reply in Paper Term: prose, a table and an rsync snippet](images/agent-hermes.png)
