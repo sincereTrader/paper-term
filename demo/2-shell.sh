@@ -7,19 +7,6 @@ cat <<EOF
 $p git log --oneline --graph -4
 $(git -C "$(dirname "$0")/.." log --oneline --graph --color=always -4)
 
-$p git status --short
- ${g}M${r} README.md
- ${red}D${r} images/old-hero.png
-${red}??${r} demo/
-
-$p npm test
- ${g}✓${r} renders ligatures for != and =>          ${d}12ms${r}
- ${g}✓${r} keeps 0 and O distinct                   ${d}4ms${r}
- ${g}✓${r} single-story a in every weight           ${d}9ms${r}
- ${y}○${r} skipped: duospace (not for terminals)
-
- ${b}Tests${r}  ${g}3 passed${r}, ${y}1 skipped${r}, 4 total   ${d}(0.408s)${r}
-
 $p du -sh fonts/otf/*
 ┌──────────────────────────┬────────┬────────────────────────────┐
 │ ${b}file${r}                     │ ${b}size${r}   │ ${b}weight${r}                     │
